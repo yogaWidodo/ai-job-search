@@ -2,53 +2,48 @@
 framework_version: 1.0.0
 ---
 
-# Behavioral Profile
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+# Behavioral Profile: Yoga Sulistiyo Widodo
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Yoga Sulistiyo Widodo is a **High-Ownership Technical Problem Solver & Solution Architect**. He combines deep hands-on technical execution with structured architectural discipline, strong cross-functional communication, and empathetic engineering leadership.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Technical Rigor & Quality | High | Believes in clean architecture, strong testing (unit, UI, property-based), and documented architectural decisions (RFCs) before code execution. |
+| Autonomy & Ownership | High | Thrives when given full ownership of features and platforms end-to-end, from ambiguous requirements to production observability and maintenance. |
+| Collaborative Leadership | High | Leads teams by example through constructive code reviews, mentoring, sprint coordination, and empathetic communication. |
+| Pragmatic Velocity | Balanced | Balances architectural purity with fast delivery and high business value, utilizing proven patterns (resiliency, failover, idempotency). |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **End-to-End Feature Ownership:** Drives product features across discovery, system design, coding, CI/CD, and production monitoring (Datadog/Grafana).
+- **Proactive Solutioning & Documentation:** Writes clear RFCs, API contracts (Swagger/Contract Verifier), and technical architecture guides to eliminate ambiguities early.
+- **Cross-Functional Bridge:** Seamlessly collaborates with Product Managers, Business Analysts, Operations, Finance, and QA to align technical solutions with core business KPIs.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Environments that value high trust, autonomy, clear goals, and technical excellence.
+- Teams that practice modern engineering workflows (Agile/Scrum, CI/CD automation, code review culture, observability).
+- Flexible working arrangements: Remote-first or well-balanced Hybrid setups.
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Deep Scale Infrastructure:** Expanding experience with multi-region Kubernetes clusters and extreme-throughput streaming (Kafka at petabyte scale) by applying proven distributed systems fundamentals.
+- **High-Level Strategy vs. Deep Hands-On:** Naturally drawn into deep implementation details; continually developing broader strategic delegation as systems scale.
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "End-to-end ownership", "Design and architecture", "Cross-functional collaboration", "Microservices", "High reliability", "Clean code", "Mentorship", "Fintech / Payments", "Performance optimization".
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "Strict top-down micromanagement", "No testing or code review culture", "Pure legacy maintenance without modernization opportunities".
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- **Works well with:** Empowering managers who set clear strategic objectives, provide continuous feedback, and grant autonomy on architectural implementation.
+- **Doesn't work with:** Micromanagement, rigid bureaucracy that resists modern best practices, or lack of architectural transparency.
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Highlight quantifiable business impacts (e.g. 70% handling time reduction, SLA breach eliminated, query times halved).
+- **CV:** Emphasize end-to-end feature delivery, resilience patterns, and cross-functional leadership.
+- **Interviews:** Use STAR stories highlighting production incidents resolved, architectural RFCs authored, and team leadership during sprint deliveries.
+- **Don't overstate:** State skills and levels with honesty and technical precision.
