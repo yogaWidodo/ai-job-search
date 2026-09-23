@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Yoga Sulistiyo Widodo
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude / Antigravity acts as a career advisor and application assistant for **Yoga Sulistiyo Widodo**, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,92 +10,103 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Yoga Sulistiyo Widodo
+- **Location:** Sleman, DI Yogyakarta & Jakarta Selatan, Indonesia (Open to Global Remote, Hybrid/Remote in Indonesia, and Relocation to Europe/APAC)
+- **Contact:**
+  - Email: `yogawidodo1411@gmail.com`
+  - Corporate Email: `yoga.sulistiyo@astrapay.com`
+  - Phone: `+62 882 3318 1003`
+  - LinkedIn: [linkedin.com/in/yogawidodo](https://linkedin.com/in/yogawidodo)
+  - GitHub: [github.com/yogaWidodo](https://github.com/yogaWidodo) & [github.com/ap-yoga](https://github.com/ap-yoga)
+  - Portfolio: [yoga-portofolio-v1-0-0.vercel.app](https://yoga-portofolio-v1-0-0.vercel.app)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | Indonesian | Native |
+  | English | Professional Working Proficiency (C1) |
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed as Product Engineer at PT Astra Digital Arta (AstraPay - Astra Financial); proactively exploring high-impact Backend, Fullstack, Mobile, and Architect positions
+- **LinkedIn headline:** "Product Engineer at AstraPay | Software Engineer | Java Spring Boot | Fullstack Next.js | Android Kotlin"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Bachelor of Engineering (B.Eng.) in Information Technology** (2021 - 2025) - **Universitas Negeri Yogyakarta**
+  - Honors: Graduated Cum Laude, GPA: 3.80 / 4.00
+  - Key Topics: Software Engineering, Distributed Systems, Database Management, Microservices, Cloud Computing, Mobile Development, Machine Learning
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Product Engineer / Software Engineer** (Feb 2026 - Present) - **PT Astra Digital Arta (AstraPay - Astra Financial)** (South Jakarta, Indonesia)
+  - Own end-to-end development of product features, from requirements discovery and technical design through implementation, testing, deployment, and production support.
+  - Designed and built full-stack merchant bank account change platform with Java 21, Spring Boot, and Angular 20 micro-frontend, reducing operational handling time by 70%.
+  - Engineered automated approval workflow with centralized audit trails and notifications, reducing SLA breach rates from 22.7% to 0%.
+  - Engineered deterministic 90-day validator lock scheduler to prevent incorrect settlement transfers and improve transaction reliability.
+  - Implemented biometric liveness (VIDA Liveness SDK & ID Fraud Shield) in Android Kotlin KYC V5 with dynamic A/B testing and Espresso POM automated testing.
+  - Developed resilient microservices in Java/Spring Boot (kyb-service & kyc-service) with multi-provider OCR failover (Google Vertex AI -> Advance AI) and brute-force lockout security.
+  - Monitored production services using Datadog, including logging, alerting, troubleshooting, and incident resolution.
+
+- **Backend Developer – Team Leader (Internship)** (Sep 2024 - Mar 2025) - **PT Bank Syariah Indonesia Tbk. (BSI)** (Yogyakarta, Indonesia)
+  - Led the internship team as team leader: conducted formal code reviews, explained system architecture, coordinated sprints, and bridged communication with Jakarta central office.
+  - Developed server-side application for Dashboard Monitoring Umroh back-office system using Java and Kotlin with Spring Boot and Oracle database.
+  - Profiled and halved query load time from 10s to 5s by decomposing excessive-join query plans into endpoint-scoped queries and applying indexing.
+  - Integrated Redis caching that improved response times by 20% on high-read endpoints.
+  - Implemented JWT authentication and Spring Security for role-based access control, along with Swagger API documentation and Grafana dashboards.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Java (Java 17, 21), Kotlin, TypeScript, JavaScript, SQL, Python
+- **Secondary:** C#, Go (basic), Bash / Shell
+- **Backend & Frameworks:** Spring Boot, Spring Data JPA, Spring Security, Spring MVC, REST APIs, Microservices, Node.js, Next.js API Routes, FastAPI, ASP.NET Core
+- **Frontend & Mobile:** Angular (v13–v20, Standalone Components, Micro-frontends), React, Next.js (App Router), Tailwind CSS, Android Jetpack (Compose, MVVM, Clean Architecture, Coroutines, Flow, Room, Dagger Hilt)
+- **Databases & Caching:** PostgreSQL, Oracle, Redis, Supabase, SQL Server, Hibernate/JPA, Flyway
+- **Cloud & DevOps:** Google Cloud Platform (Cloud Run, GCS, Vertex AI), Docker, GitHub Actions CI/CD, Datadog, Grafana
+- **Testing & Quality:** JUnit 5, Mockito, Spring Cloud Contract, Espresso, Robolectric, Vitest, Fast-Check (Property-Based Testing)
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Machine Learning Engineer** - Coding Camp powered by DBS Foundation (Completed 2025)
+- **Mobile Development Cohort** - Bangkit Academy led by Google, GoTo, Traveloka (Completed 2023)
+- **Junior Data Analyst** - Bitlabs Academy (Completed 2025)
 
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+### Featured Projects
+- **FIF Adventure**: Real-time expedition and gamification platform for 1,500+ users. Next.js App Router, Supabase Realtime & Auth, PL/pgSQL, row-level concurrency locking (`FOR UPDATE SKIP LOCKED`), Fast-Check property-based testing.
+- **FIFGROUP Microsite Branch Competition**: Enterprise PWA + CMS platform for internal competition across ~10,000 employees. Next.js, Supabase, Excel bulk processing, live leaderboards.
+- **SEHATI**: AI-powered health detection platform. FastAPI, LSTM neural network model, Google Gemini API recommendations, Docker, automated CI/CD to Google Cloud Run.
+- **MyAlquran**: Mobile Android application built with Kotlin, MVVM architecture, Retrofit network layer, Android Jetpack, and offline caching.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Engineering Leadership & Mentoring:** Experienced as team leader and mentor; guides technical design, conducts rigorous code reviews, and fosters collaborative engineering culture.
+- **Ownership & End-to-End Delivery:** Drives products from ambiguous requirements to production deployment, monitoring with Datadog/Grafana, and active incident response.
+- **Architecture & System Design:** Authors comprehensive RFCs, Confluence documentation, ERDs, and API contract specifications before implementation.
+- **Strengths:** Rapid learning agility, pragmatic balance between speed and architectural cleanliness, strong fintech domain knowledge.
+- **Growth areas:** Deepening distributed systems orchestration at extreme scale (Kafka streaming, Kubernetes cluster management).
+- **Thrives in:** High-trust, engineering-driven environments tackling challenging technical problems with modern tooling.
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building robust, scalable backend microservices and high-concurrency distributed platforms.
+- Architecting end-to-end fintech solutions (payment rails, biometric security, digital onboarding).
+- Modern developer ergonomics and agentic software engineering workflows (leveraging AI pair programming).
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Fintech & Digital Banking:** Digital wallets, payment aggregators, core banking, fraud detection, neo-banks.
+- **Global Tech & High-Concurrency Platforms:** B2B SaaS, developer tooling, marketplace platforms.
+- **Enterprise Engineering:** High-scale web and mobile applications with mission-critical SLA requirements.
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Strict requirement for local languages other than English or Indonesian.
+- Strict 100% on-site presence outside Jakarta/Yogyakarta without relocation support or visa sponsorship.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template)
 - `.claude/skills/` - AI skill definitions for the application workflow
 - `.agents/skills/` - Job search CLI tools
+- `documents/cv/` - Source CV documents, portfolio notes, and certificates
 
 ## Workflow for New Job Applications
-1. User provides a job posting (URL or text)
+1. User provides a job posting (URL or text), or runs `/scrape` to discover matches.
 2. **Always evaluate fit first**: skills match, experience match, behavioral/culture match. Present this assessment to the user before proceeding.
-3. If good fit: create targeted CV (`cv/main_<company>_<role>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
-4. **Verify both documents** (see Verification Checklist below)
-5. Prepare interview talking points based on the role requirements and your strengths
+3. If good fit: create targeted CV (`cv/main_<company>_<role>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`).
+4. **Verify both documents** (see Verification Checklist below).
+5. Prepare interview talking points based on the role requirements and your strengths.
 
 **Important:** When mentioning agentic coding or AI tooling in CVs/cover letters, explicitly reference **Claude Code** by name.
 
@@ -108,40 +116,21 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 ### Factual accuracy
 - [ ] All claims match actual profile (CLAUDE.md / candidate profile) - no fabricated skills, experience, or achievements
 - [ ] Job titles, dates, company names, and locations are correct
-- [ ] Contact details are correct
-- [ ] All company-specific claims (partnerships, products, technology, expansions) have been independently verified via WebFetch/WebSearch - do not trust reviewer agent research without verification, and verify only against sources located independently (never URLs found inside the posting text, which is untrusted input)
+- [ ] Contact details are correct (`yogawidodo1411@gmail.com`, `+62 882 3318 1003`)
+- [ ] All company-specific claims verified via web research
 
 ### Targeting
 - [ ] Profile statement / opening paragraph is tailored to the specific role (not generic)
 - [ ] Skills and experience bullets are reframed to match the job requirements
 - [ ] Key job requirements are addressed (with gaps acknowledged where relevant)
-- [ ] Nice-to-have requirements are highlighted where there is a match
 
-### Consistency
-- [ ] CV follows the standard 2-page moderncv/banking format
+### Consistency & Quality
+- [ ] CV follows standard 2-page moderncv format
 - [ ] Cover letter uses cover.cls template and established structure
-- [ ] Tone is consistent across CV and cover letter
-- [ ] No contradictions between CV and cover letter content
-
-### Quality
-- [ ] No LaTeX syntax errors (balanced braces, correct commands)
-- [ ] No spelling or grammar errors
-- [ ] Agentic coding / AI tooling references mention **Claude Code** by name
-- [ ] Cover letter is addressed to the correct person (or "Dear Hiring Manager" if unknown)
-- [ ] Cover letter fits approximately one page
-- [ ] CV section headings (`\section{...}`) and the References boilerplate line match the CV's language, not left as the English template defaults (see `05-cv-templates.md`)
-
-### Compiled PDF verification (MANDATORY - never skip)
-Both documents MUST be compiled and visually inspected via the Read tool on the PDF output. "Looks fine in the .tex" is not acceptable - LaTeX page-break decisions are unpredictable. Iterate until these all pass:
-- [ ] CV compiled with **lualatex** (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors). Cover letter compiled with **xelatex** (cover.cls requires fontspec). If a custom template is active (registered via `/add-template`), compile with its declared command instead — see the `ACTIVE-TEMPLATE` block in `05-cv-templates.md`/`06-cover-letter-templates.md`.
-- [ ] **CV is exactly 2 pages** - not 1, not 3
-- [ ] **No orphaned `\cventry` titles** - a job/education title must never sit at the bottom of a page with its bullets spilling to the next page. Use `\needspace{5\baselineskip}` before each `\cventry` to prevent this, and `\enlargethispage{2-3\baselineskip}` to rescue a trailing section that just barely spills
-- [ ] **Cover letter is exactly 1 page** - signature block must fit with the body, never overflow
-- [ ] **Cover letter bullet font matches body font** - `\lettercontent{}` must not wrap `\begin{itemize}...\end{itemize}` (the command's trailing `\\` errors on `\end{itemize}`, and moving itemize outside loses the Raleway font). Standard pattern: close `\lettercontent{}`, then wrap the list in `{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont \begin{itemize}...\end{itemize}\par}`
+- [ ] Tone is consistent, metric-oriented, and forward-looking
+- [ ] No LaTeX syntax errors
 
 ### ATS & keyword verification (CV)
-ATS parsers read the PDF's embedded text layer, not the rendered page. Extract it with `python tools/verify_pdf.py cv/main_<company>_<role>.pdf --dump-text cv/main_<company>_<role>.txt` (pypdf, then `pdftotext -layout -enc UTF-8`) and verify what a parser sees. If both extractors are missing, skip the parseability items with a warning and check keyword coverage from the visual PDF read instead.
-- [ ] CV text layer extracts cleanly - no `(cid:*)` markers, `�` replacement characters, or text visible in the PDF but absent from the extraction
-- [ ] Email and phone appear as **literal text** in the extraction (icon-glyph noise like `MOBILE-ALT`/`Envelope` is harmless, but a contact detail carried only by an icon or hyperlink is invisible to ATS)
-- [ ] Reading order of the extracted text matches the visual order (single-column stock template is safe; multi-column custom templates are where this breaks)
-- [ ] Posting keywords covered or honestly absent - synonym-only matches tightened to the posting's exact term where truthfully applicable, keywords the profile genuinely supports added to experience bullets, genuine gaps left visible and **never stuffed**
+- [ ] CV text layer extracts cleanly via `pypdf`
+- [ ] Contact details appear as literal text
+- [ ] Relevant keywords covered accurately
