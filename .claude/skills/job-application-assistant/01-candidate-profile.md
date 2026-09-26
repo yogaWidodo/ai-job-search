@@ -37,7 +37,7 @@ South Jakarta, Indonesia
 - Engineered automated approval workflow with centralized audit trails and notifications, reducing SLA breach rates from 22.7% to 0%.
 - Engineered deterministic 90-day validator lock scheduler to prevent incorrect settlement transfers and improve transaction reliability.
 - Implemented biometric liveness (VIDA Liveness SDK & ID Fraud Shield) in Android Kotlin KYC V5 with dynamic A/B testing and Espresso POM automated testing.
-- Developed resilient microservices in Java/Spring Boot (kyb-service & kyc-service) with multi-provider OCR failover (Google Vertex AI -> Advance AI) and brute-force lockout security.
+- Developed resilient microservices in Java/Spring Boot (kyb-service & kyc-service) with multi-provider OCR failover (Google Vertex AI to Advance AI) and brute-force lockout security.
 - Monitored production services using Datadog, including logging, alerting, troubleshooting, and incident resolution.
 
 ### Backend Developer – Team Leader (Internship) - PT Bank Syariah Indonesia Tbk. (BSI) (Sep 2024 - Mar 2025)

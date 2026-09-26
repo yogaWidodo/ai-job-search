@@ -1,5 +1,5 @@
 ---
-framework_version: 1.2.0
+framework_version: 1.2.1
 ---
 
 # Writing Style Guide
@@ -16,6 +16,7 @@ framework_version: 1.2.0
    - **Flag it:** Combining academic + industry experience into a single claim that implies it was all industry; describing work using the posting's specific terminology when the actual work was adjacent but not the same.
    - **Never:** Claiming experience the candidate doesn't have; implying they worked in a domain they haven't.
    When a bullet falls in the "flag it" zone, present it to the user after drafting with: "This bullet is a stretch because X. Keep, soften, or drop?" If the evaluation experience match score is below 50, warn before proceeding to drafting that extensive reframing would be needed.
+7. **NO math or arrow notation ($\rightarrow$, $\to$, ->, →).** Always use plain natural wording (e.g., "from 22.7% to 0%", "Google Vertex AI to Advance AI", "failover to"). Never include LaTeX math mode arrows or ASCII arrows in CV bullet points, summaries, or cover letters.
 
 ## Tone
 - **Warm but direct.** Friendly and approachable, but confident without arrogance.

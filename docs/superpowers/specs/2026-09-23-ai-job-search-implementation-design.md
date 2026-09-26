@@ -94,7 +94,7 @@ The goal of this implementation is to establish a fully working, personalized en
      - Developed merchant bank account change platform with Java 21, Spring Boot, PostgreSQL, and Angular 20 micro-frontend, reducing operational handling time by 70%.
      - Engineered automated approval workflow with centralized audit trails, reducing SLA breach rate from 22.7% to 0%.
      - Implemented biometric liveness (VIDA Liveness SDK & ID Fraud Shield) in Android Kotlin KYC V5 with A/B testing and Espresso POM automated testing.
-     - Architected multi-provider OCR failover (Google Vertex AI -> Advance AI) and brute-force lockout security.
+     - Architected multi-provider OCR failover (Google Vertex AI to Advance AI) and brute-force lockout security.
      - Authored RFCs and enterprise solution architecture documentation for Dukcapil Face Recognition and KYB services.
 2. **PT Bank Syariah Indonesia Tbk. (BSI)** (Sep 2024 – Mar 2025)
    - **Role**: Backend Developer – Team Leader (Internship)
